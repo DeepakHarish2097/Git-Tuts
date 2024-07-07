@@ -116,3 +116,16 @@ This will only get the files from the remote repo and it will affect the local r
 git merge origin/main
 ```
 
+## Git Pull
+
+To avoid git `fectch` and `merge` you can use
+
+```bash
+git pull origin main
+```
+
+or if the upstream branch is set, you can use
+
+```bash
+git pull
+```
