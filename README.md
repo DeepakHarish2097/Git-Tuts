@@ -99,3 +99,5 @@ To Push the repository to remote
 git push origin main
 git push origin main -u
 ```
+
+The `-u` flag in the `git push origin main -u` command stands for `--set-upstream`. When you use this flag, Git sets the specified branch (`main` in this case) as the upstream branch for the current local branch. This means that in future interactions, Git will know which remote branch to interact with by default, allowing you to simply use commands like `git push` or `git pull` without needing to specify the branch each time.
