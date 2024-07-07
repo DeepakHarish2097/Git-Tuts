@@ -30,18 +30,18 @@ git config --local user.name 'Your Name'
 git config --local user.email 'Your Email'
 ```
 
-### Initaliziting Repository
+## Initaliziting Repository
 
 To initialize a repository `git init` command is used to create a repo with `master` or `main` branch.
 This will also create a folder called `.git` to track all the changes in your working folder. To delete the repo the `.git` folder can be deleted
 
-### Git Status and Git Ignore
+## Git Status and Git Ignore
 
 To check the changes of your folder use `git status` to check the status of your file.
 
 If you want to avoid some files from being tracked create a file called `.gitignore` and the filename in the `.gitignore` file.
 
-### Stagging
+## Stagging
 
 To Stage the files before commiting use
 
@@ -59,4 +59,18 @@ To Reset the staged file use
 
 ```bash
 git reset .
+```
+
+## Git Commit
+
+To commit the stages use
+
+```bash
+git commit -m "commit message"
+```
+
+To log the commit information use
+
+```bash
+git log
 ```
