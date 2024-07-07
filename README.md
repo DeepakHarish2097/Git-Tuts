@@ -74,3 +74,28 @@ To log the commit information use
 ```bash
 git log
 ```
+
+## Git Remote
+
+To check if the git is connected to any remote repository use
+
+```bash
+git remote
+git remote -v
+git remote show origin
+```
+
+To add a remote repo use
+
+```bash
+git remote add origin repository_url
+```
+
+## Git Push
+
+To Push the repository to remote
+
+```bash
+git push origin main
+git push origin main -u
+```
