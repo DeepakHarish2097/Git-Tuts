@@ -129,3 +129,14 @@ or if the upstream branch is set, you can use
 ```bash
 git pull
 ```
+
+## Git clone
+
+To clone a repository with all its previous commits and log use
+
+```bash
+git clone repository_url
+git clone repository_url folder_name
+```
+
+You can also specify the folder name to clone the repo
