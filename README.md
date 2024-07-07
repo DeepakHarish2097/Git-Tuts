@@ -140,3 +140,30 @@ git clone repository_url folder_name
 ```
 
 You can also specify the folder name to clone the repo
+
+## Git Branch
+
+To create a branch use
+
+```bash
+git branch awesome
+```
+
+To list the branches
+
+```bash
+git branch
+```
+
+To rename the branch
+
+```bash
+git branch -M rename
+```
+
+To delete the branch
+
+```bash
+git branch -d awesome
+git branch -D awesome
+```
