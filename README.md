@@ -101,3 +101,18 @@ git push origin main -u
 ```
 
 The `-u` flag in the `git push origin main -u` command stands for `--set-upstream`. When you use this flag, Git sets the specified branch (`main` in this case) as the upstream branch for the current local branch. This means that in future interactions, Git will know which remote branch to interact with by default, allowing you to simply use commands like `git push` or `git pull` without needing to specify the branch each time.
+
+## Fetch and Merge
+
+To get the file from remote repo use
+
+```bash
+git fetch
+```
+
+This will only get the files from the remote repo and it will affect the local repo. To merge both repo use
+
+```bash
+git merge origin/main
+```
+
