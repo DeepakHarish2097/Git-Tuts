@@ -167,3 +167,17 @@ To delete the branch
 git branch -d awesome
 git branch -D awesome
 ```
+
+## Git Checkout
+
+To move from one branch to another use
+
+```bash
+git checkout awesome
+```
+
+To create and checkout at same time use
+
+```bash
+git checkout -b awesome
+```
