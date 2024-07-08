@@ -184,3 +184,61 @@ git checkout -b awesome
 
 Added in master
 Added in awesome
+
+## Git Merge
+
+To merge branches commit and checkout to the desired branch and merge.
+
+```bash
+git checkout main
+git merge awesome
+```
+
+If there is a conflict you can accept both changes.
+
+## Git Reset
+
+If a file is changed and it is staged, but if you want to unstage it you can use
+
+```bash
+git rest
+```
+
+If you have commit it and reset the commit, get the commit id from the log and reset with the id.
+
+```bash
+git reset commit_id
+```
+
+This reset the commit but the changes will be in the unstaged state. If to move to the previous commit without the changes use
+
+```bash
+git reset --hard commit_id
+```
+
+## Git Revert
+
+Unlike the reset which deletes the commit, revert go back to the previous commit with out deleting the recent commit and creating a new commit from the recent commit.
+
+```bash
+git revert commit_id
+```
+
+## Git Amend
+
+To add info to the existing commit or to add the unstaged file we can use `git commit --amend`.
+
+To change the commit message
+
+```bash
+git commit --amend -m "better message"
+```
+
+To add the unstaged file to the existing commit use
+
+```bash
+git add .
+git commit --amend --no-edit
+```
+
+This will add the changes to the existing commit.
