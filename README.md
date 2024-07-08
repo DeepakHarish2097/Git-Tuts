@@ -242,3 +242,25 @@ git commit --amend --no-edit
 ```
 
 This will add the changes to the existing commit.
+
+## Git Stash
+
+Stash is a command in git that lets to save the command in a seperate list that wont appear in the commit and also when the code is pushed to the remote server. The stash is used as `git stash`. To restore the stash `git stash pop`
+
+But to have the multiple stash we can name the stash
+
+```bash
+git stash save post1
+```
+
+To list the stash we can use the command
+
+```bash
+git stash list
+```
+
+To restore the one of the stash from the list use the index id given the stash list command
+
+```bash
+git stash apply 1
+```
