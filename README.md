@@ -181,3 +181,5 @@ To create and checkout at same time use
 ```bash
 git checkout -b awesome
 ```
+
+Added in master
